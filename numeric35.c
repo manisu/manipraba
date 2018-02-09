@@ -8,7 +8,7 @@ gets(a);
 b=strlen(a);
 for(i=0;i<b;i++)
 {
-if((0<=a[i])
+if(0<=a[i])
 sum=sum+1;
 }
 printf("\n no.of spaces=%d",sum);
