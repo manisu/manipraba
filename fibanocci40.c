@@ -8,7 +8,7 @@ printf("\n Fibanocci series");
 printf("\n%d",a);
 printf("\n%d",b);
 count=1;
-while(count!=n)
+while(count!=(n-2))
 {
 c=a+b;
 printf("\n%d",c);
